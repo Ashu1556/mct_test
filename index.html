@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather_api</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="action_container">
+        <div class="wrapper1">
+            <h2 id="heading">Wheather Application</h2>
+            <p id="heading1">Know the Wheather without visiting the Place</p>
+        </div>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="container">
+          <div class="search-container">
+            <input type="text" placeholder="Enter a city name" id="input_box" value=""  />
+            <button id="search-btn">Search</button>
+          </div>
+        </div>
+    </div>
+    <div id="info_container">
+        <img src="http://openweathermap.org/img/wn/09d@2x.png" id="weather_image"/>
+        <h1 id="temperature">19&deg;</h1>
+        <h4 id="season">Rainy</h4>
+        <div id="weather_info">
+            <div id="wind_info">
+                <h3>wind</h3>
+                <h1 id="wind">17<span class="unit">km</span></h1>
+            </div>
+            <div id="humidity_info">
+                <h3>humidity</h3>
+                <h1 id="humidity">70<span class="unit">%</span></h1>
+            </div>
+            <div id="precipitation_info">
+                <h3>cloudiness</h3>
+                <h1 id="precipitation">17<span class="unit">%</span></h1>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
