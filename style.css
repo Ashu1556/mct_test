@@ -18,6 +18,8 @@ body {
     display: flex;
     font-family: sans-serif;
     background-color: #4299eb;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 #info_container,
